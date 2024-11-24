@@ -1,9 +1,9 @@
 .main-plats-list {
   display: flex;
+  width: 100%;
   align-items: baseline;
   justify-content: space-between;
   box-sizing: border-box;
-  /* border: #000 2px solid; */
   margin: 50px 5px;
 }
 .first-plats-list,
@@ -17,7 +17,6 @@
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 20px;
-  padding: 0 50px;
 }
 .box-plat .box-text p {
   font-size: 16px;
@@ -28,7 +27,7 @@
 }
 .plat-img {
   margin-top: 30px;
-  width: 250px;
+  width: 240px;
   height: auto;
   margin-left: 20px;
 }

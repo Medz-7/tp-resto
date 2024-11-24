@@ -1,0 +1,66 @@
+@media screen and (max-width: 660px) {
+  .main-container,
+  .main-container-two {
+    width: 95%;
+    margin: 0 auto;
+  }
+  body {
+    background-color: #efe9e0;
+  }
+  .main-plats-list {
+    flex-direction: column;
+  }
+  .box-footer {
+    flex-direction: column;
+  }
+  .first-bloc h1 {
+    font-size: 3.9rem;
+  }
+  .navbar {
+  }
+
+  .navbar {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .navbar li {
+    list-style: none;
+    font-size: 1rem;
+  }
+  .navbar span {
+    background-color: #d2a55a;
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    border-radius: 40px;
+    margin-bottom: 20px;
+  }
+  .box-text {
+    width: 180px;
+    font-size: 1rem;
+    padding: 0;
+  }
+  .plat-img {
+    margin-top: 98px;
+    width: 155px;
+    height: auto;
+    margin-left: 10px;
+  }
+  .plat-img img {
+    width: 100%;
+  }
+  .second-plats-list .kandia {
+    width: 140px;
+  }
+  .first-plats-list .thieb {
+    width: 170px;
+  }
+  .fresh-box {
+    font-size: 0.8rem;
+  }
+  .first-bloc p {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+}
