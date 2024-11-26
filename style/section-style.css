@@ -1,10 +1,10 @@
 .main-plats-list {
   display: flex;
-  width: 100%;
   align-items: baseline;
   justify-content: space-between;
+  gap: 10px;
   box-sizing: border-box;
-  margin: 50px 5px;
+  margin: 50px 0;
 }
 .first-plats-list,
 .second-plats-list {
@@ -12,32 +12,39 @@
   flex-direction: column;
   justify-content: space-between;
   height: max-content;
+  align-items: center;
 }
 .box-plat {
   display: flex;
-  justify-content: space-evenly;
   margin-bottom: 20px;
+  padding: 0 5px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .box-plat .box-text p {
-  font-size: 16px;
+  font-size: 17px;
   font-family: "Times New Roman", Times, serif;
 }
 .box-text {
-  width: 230px;
-}
-.plat-img {
-  margin-top: 30px;
-  width: 240px;
-  height: auto;
-  margin-left: 20px;
-}
-.plat-img img {
-  width: 100%;
-}
-
-.second-plats-list .kandia {
   width: 210px;
 }
-.first-plats-list .thieb {
-  width: 265px;
+.plat-img {
+  /* margin-top: 30px; */
+  width: 220px;
+  height: auto;
+  padding: 0;
+  margin: 30px 15px 0;
+}
+.plat-img img {
+  width: 105%;
+}
+/* ajustement des tailles des images pour responsivite */
+.second-plats-list .kandia img {
+  width: 90%;
+}
+.first-plats-list .thieb img {
+  width: 115%;
+}
+.second-plats-list .yassa img {
+  width: 105%;
 }
