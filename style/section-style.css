@@ -2,8 +2,9 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 10px;
   box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
   margin: 50px 0;
 }
 .first-plats-list,
@@ -18,7 +19,7 @@
   display: flex;
   margin-bottom: 20px;
   padding: 0 5px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
 }
 .box-plat .box-text p {
@@ -38,9 +39,9 @@
 .plat-img img {
   width: 105%;
 }
-/* ajustement des tailles des images pour responsivite */
+/* ajustement des tailles des images pour plus de responsivite */
 .second-plats-list .kandia img {
-  width: 90%;
+  width: 98%;
 }
 .first-plats-list .thieb img {
   width: 115%;

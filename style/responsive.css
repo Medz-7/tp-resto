@@ -7,10 +7,6 @@
     background-color: #efe9e0;
   }
 
-  .box-footer {
-    flex-direction: column;
-    align-items: baseline;
-  }
   .first-bloc h1 {
     font-size: 3.9rem;
     width: 350px;
@@ -51,8 +47,8 @@
     flex-direction: column;
   }
 
-  .box-plat .plat-img {
-    width: 178px;
+  .plat-img {
+    width: 210px;
     height: auto;
     margin: 0 0;
   }
@@ -61,7 +57,7 @@
   }
 
   .second-plats-list .kandia {
-    width: 160px;
+    width: 180px;
   }
   .first-plats-list .thieb {
     width: 188px;
@@ -79,8 +75,13 @@
   }
 
   /* footer */
+  .box-footer {
+    flex-direction: column;
+    align-items: center;
+  }
   .fresh-box {
     font-size: 0.8rem;
+    flex-wrap: wrap;
   }
   .title-logo h1 {
     font-size: 2rem;
@@ -99,5 +100,11 @@
     width: 100%;
     height: 100%;
     padding: 0;
+  }
+}
+@media screen (width: 323) {
+  .fresh-box {
+    background-color: 20px;
+    justify-content: center;
   }
 }
