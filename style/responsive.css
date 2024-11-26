@@ -39,7 +39,6 @@
 
   .main-plats-list {
     flex-direction: column;
-    /* width: 325px; */
     justify-content: center;
     align-items: center;
   }
@@ -83,6 +82,10 @@
     font-size: 0.8rem;
     flex-wrap: wrap;
   }
+  .box-dessert,
+  .price-dessert {
+    padding: 0;
+  }
   .title-logo h1 {
     font-size: 2rem;
     padding-top: 5px;
@@ -102,9 +105,3 @@
     padding: 0;
   }
 }
-/* @media screen (width: 323) {
-  .fresh-box {
-    background-color: 20px;
-    justify-content: center;
-  }
-} */
