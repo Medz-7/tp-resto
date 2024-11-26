@@ -102,9 +102,9 @@
     padding: 0;
   }
 }
-@media screen (width: 323) {
+/* @media screen (width: 323) {
   .fresh-box {
     background-color: 20px;
     justify-content: center;
   }
-}
+} */
